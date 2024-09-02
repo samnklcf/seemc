@@ -1313,3 +1313,16 @@ only screen and (                min-resolution: 2dppx){
 html {
 	scroll-behavior: smooth !important;
   }
+
+  .team-member {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.team-member i {
+	font-size: 1.5rem;
+	margin-right: 10px;
+}
+.team-member h5 {
+	margin-bottom: 0;
+}
